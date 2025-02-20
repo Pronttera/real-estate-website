@@ -10,6 +10,7 @@ const HeroSection = () => {
         <div className="flex space-x-4 mr-auto pl-6">
           <span className="flex items-center">
             <FaPhone className="mr-2 transform rotate-90" />
+            <FaPhone className="mr-2 transform rotate-90" />
             (888) 111-222
           </span>
           <span className="flex items-center">
@@ -17,16 +18,19 @@ const HeroSection = () => {
             support@apartmentz.com
           </span>
         </div>
-        <div className="flex space-x-6 ml-auto pr-8">
+        <div className="flex space-x-6 ml-auto pr-20">
           <a href="#" className="flex items-center hover:underline">
             <FaGlobeAmericas className="mr-2" />
             English
           </a>
           <a href="#" className="hover:underline">Sign Up/Sign In</a>
+          <a href="#" className="hover:underline">Sign Up/Sign In</a>
           <div className="flex space-x-3 mt-1">
+            <a href="#"><FaInstagram /></a>
             <a href="#"><FaInstagram /></a>
             <a href="#"><FaFacebook /></a>
             <a href="#"><FaTwitter /></a>
+            <a href="#"><FaPinterest /></a>
             <a href="#"><FaPinterest /></a>
           </div>
         </div>
@@ -52,7 +56,7 @@ const HeroSection = () => {
         {/* Right Section */}
         <div className="w-1/2 h-full">
           <img src="./src/assets/buildings.png" alt="City Skyline" className="w-full h-full object-cover" />
-          <button className="absolute top-5 right-24 bg-[#72B944] text-white px-6 py-3 rounded-full shadow-md hover:bg-green-700 transition">
+          <button className="absolute top-[40px] right-24 bg-[#72B944] text-white px-6 py-3 rounded-full shadow-md hover:bg-green-700 transition">
             Add A Property
           </button>
           <button className="absolute top-8 right-14 text-black text-2xl" onClick={() => setIsSidebarOpen(true)}>
@@ -97,6 +101,23 @@ const HeroSection = () => {
               </select>
               <p className="text-xs text-gray-500 mt-1">Enter house type</p>
             </div>
+            <div className="flex flex-col items-center">
+              <select className="text-xl font-semibold text-gray-700">
+                <option selected disabled>Current location</option>
+                <option>Los Angeles</option>
+                <option>New York</option>
+              </select>
+              <p className="text-xs text-gray-500 mt-1">Enter your location</p>
+            </div>
+            <div className="border-l-2 border-gray-300 h-10 mx-4"></div>
+            <div className="flex flex-col items-center">
+              <select className="text-xl font-semibold text-gray-700">
+                <option selected disabled>Type</option>
+                <option>Residential</option>
+                <option>Commercial</option>
+              </select>
+              <p className="text-xs text-gray-500 mt-1">Enter house type</p>
+            </div>
             <div className="border-l-2 border-gray-300 h-10 mx-4"></div>
             <div className="flex flex-col items-center">
               <select className="text-xl font-semibold text-gray-700">
@@ -107,7 +128,16 @@ const HeroSection = () => {
               <p className="text-xs text-gray-500 mt-1">Enter the price you want</p>
             </div>
             <div className="border-l-2 border-gray-300 h-10 mx-4"></div>
+              <select className="text-xl font-semibold text-gray-700">
+                <option selected disabled>Price</option>
+                <option>$1000-$2000</option>
+                <option>$2000-$3000</option>
+              </select>
+              <p className="text-xs text-gray-500 mt-1">Enter the price you want</p>
+            </div>
+            <div className="border-l-2 border-gray-300 h-10 mx-4"></div>
             <button className="bg-[#72B944] text-white px-6 py-2 rounded-full shadow-md hover:bg-green-700 transition flex items-center">
+              Explore Now <FaChevronRight className="ml-1 text-xl" />
               Explore Now <FaChevronRight className="ml-1 text-xl" />
             </button>
           </div>
@@ -133,6 +163,7 @@ const HeroSection = () => {
       {/* ApartmentZ Branding */}
       <div className="absolute top-[89px] left-[59px] text-3xl font-bold z-30">
         Apartment<span className="text-[#72B944]">Z</span>
+      </div>
       </div>
     </div>
   );
