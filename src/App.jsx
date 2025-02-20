@@ -1,8 +1,9 @@
-import Home from './pages/Home/index.jsx'
+import React from 'react'
+import Home from './pages/Home'
 
-function App() {
-  return(
-   <Home/>
+const App = () => {
+  return (
+    <Home />
   )
 }
 
