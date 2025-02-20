@@ -58,7 +58,7 @@ const HeroSection = () => {
           <button className="absolute top-8 right-14 text-black text-2xl" onClick={() => setIsSidebarOpen(true)}>
             <FaBars />
           </button>
-          <div className="absolute top-9 right-40 left-80 text-black text-1xl">
+          <div className="absolute top-9 right-[260px] text-black text-1xl">
             <a href="#" className="hover:underline">Manage Rentals</a>
           </div>
         </div>
@@ -70,7 +70,7 @@ const HeroSection = () => {
         </button>
         <div className="p-6 bg-white bg-opacity-50 rounded-lg">
           <a href="#" className="block py-2 text-lg text-gray-800 hover:text-[#72B944]">About Us</a>
-          <a href="#" className="block py-2 text-lg text-gray-800 hover:text-[#72B944]">Services</a>
+          <a href="#" className="bl ock py-2 text-lg text-gray-800 hover:text-[#72B944]">Services</a>
           <a href="#" className="block py-2 text-lg text-gray-800 hover:text-[#72B944]">Work</a>
           <a href="#" className="block py-2 text-lg text-gray-800 hover:text-[#72B944]">Contact</a>
           <a href="#" className="block py-2 text-lg text-gray-800 hover:text-[#72B944]">More</a>
@@ -78,8 +78,8 @@ const HeroSection = () => {
       </div>
 
         {/* Card Section */}
-        <div className="absolute top-[580px] left-1/2 transform -translate-x-1/2 w-[70%] h-[120px] flex justify-center z-20">
-          <div className="flex flex-row items-center gap-8 px-10 py-6 bg-white shadow-lg rounded-xl border-2 border-[#72B944]">
+        <div className="absolute top-[580px] left-[490px] transform -translate-x-1/2 w-[60%] h-[120px] flex justify-center z-20">
+          <div className="flex flex-row items-center gap-4 px-10 py-6 bg-white shadow-lg rounded-xl border-2 border-[#72B944]">
             <div className="flex flex-col items-center">
               <select className="text-xl font-semibold text-gray-700">
                 <option selected disabled>Current location</option>
@@ -107,7 +107,7 @@ const HeroSection = () => {
               <p className="text-xs text-gray-500 mt-1">Enter the price you want</p>
             </div>
             <div className="border-l-2 border-gray-300 h-10 mx-4"></div>
-            <button className="bg-[#72B944] text-white px-6 py-2 rounded-full shadow-md hover:bg-green-700 transition flex items-center">
+            <button className="bg-[#72B944] text-white px-6 py-2 rounded-full shadow-md hover:bg-green-700 transition flex items-center w-[170px] h-[50px]">
               Explore Now <FaChevronRight className="ml-1 text-xl" />
             </button>
           </div>
