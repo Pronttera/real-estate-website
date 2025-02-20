@@ -3,7 +3,7 @@ import React from 'react'
 const HeroSection = () => {
   return (
     <section>
-        <h1>this is hero </h1>
+        <p>Hello World</p>
     </section>
   )
 }
