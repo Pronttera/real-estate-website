@@ -1,12 +1,10 @@
-import Section1 from './Section1.jsx'
-import Section2 from './Section2.jsx'
+import Home from './pages/Home/index.jsx'
 
 function App() {
   return(
-    <>
-      <Section1/>
-      <Section2/>
-    </>
+    <div>
+      <Home/>
+    </div>
   )
 }
 
