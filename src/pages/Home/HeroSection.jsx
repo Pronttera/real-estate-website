@@ -4,8 +4,8 @@ import { FaBars, FaFacebook, FaTwitter, FaInstagram, FaGlobeAmericas, FaPhone, F
 const HeroSection = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   return (
-    <div className="relative w-full h-[950px] bg-white">
-    <div className="relative w-[1440px] h-[950px] bg-white">
+    <div className="relative w-screen h-[950px] bg-white">
+    <div className="relative w-screen h-[950px] bg-white">
       {/* Top Bar */}
       <div className="bg-[#72B944] text-white flex justify-between items-center w-full h-[50px] text-sm">
         <div className="flex space-x-4 mr-auto pl-6">
