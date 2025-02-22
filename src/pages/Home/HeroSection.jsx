@@ -4,7 +4,8 @@ import { FaBars, FaFacebook, FaTwitter, FaInstagram, FaGlobeAmericas, FaPhone, F
 const HeroSection = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   return (
-    <div className="relative w-full h-[950px] bg-white">
+    <div className="relative w-screen h-[950px] bg-white">
+    <div className="relative w-screen h-[950px] bg-white">
       {/* Top Bar */}
       <div className="bg-[#72B944] text-white flex justify-between items-center w-full h-[50px] text-sm">
         <div className="flex space-x-4 mr-auto pl-6">
@@ -18,19 +19,16 @@ const HeroSection = () => {
             support@apartmentz.com
           </span>
         </div>
-        <div className="flex space-x-6 ml-auto pr-20">
+        <div className="flex space-x-6 ml-auto pr-8">
           <a href="#" className="flex items-center hover:underline">
             <FaGlobeAmericas className="mr-2" />
             English
           </a>
           <a href="#" className="hover:underline">Sign Up/Sign In</a>
-          <a href="#" className="hover:underline">Sign Up/Sign In</a>
           <div className="flex space-x-3 mt-1">
-            <a href="#"><FaInstagram /></a>
             <a href="#"><FaInstagram /></a>
             <a href="#"><FaFacebook /></a>
             <a href="#"><FaTwitter /></a>
-            <a href="#"><FaPinterest /></a>
             <a href="#"><FaPinterest /></a>
           </div>
         </div>
@@ -39,8 +37,7 @@ const HeroSection = () => {
       {/* Hero Section */}
       <div className="relative flex w-full h-full">
         {/* Left Section */}
-        <div className="flex flex-col justify-center bg-[#f4f7ec] w-1/2 h-full px-20">
-          
+        <div className="flex flex-col justify-center bg-[#f4f7ec] w-1/2 h-full px-20">   
           {/* Hero Text*/}
           <div className="hero-text mt-[-120px] left-[29px]">
             <h1 className="text-5xl font-bold text-gray-900 leading-tight">
@@ -56,13 +53,13 @@ const HeroSection = () => {
         {/* Right Section */}
         <div className="w-1/2 h-full">
           <img src="./src/assets/buildings.png" alt="City Skyline" className="w-full h-full object-cover" />
-          <button className="absolute top-[40px] right-24 bg-[#72B944] text-white px-6 py-3 rounded-full shadow-md hover:bg-green-700 transition">
+          <button className="absolute top-5 right-24 bg-[#72B944] text-white px-6 py-3 rounded-full shadow-md hover:bg-green-700 transition">
             Add A Property
           </button>
           <button className="absolute top-8 right-14 text-black text-2xl" onClick={() => setIsSidebarOpen(true)}>
             <FaBars />
           </button>
-          <div className="absolute top-9 right-40 left-80 text-black text-1xl">
+          <div className="absolute top-9 right-[260px] text-black text-1xl">
             <a href="#" className="hover:underline">Manage Rentals</a>
           </div>
         </div>
@@ -74,7 +71,7 @@ const HeroSection = () => {
         </button>
         <div className="p-6 bg-white bg-opacity-50 rounded-lg">
           <a href="#" className="block py-2 text-lg text-gray-800 hover:text-[#72B944]">About Us</a>
-          <a href="#" className="block py-2 text-lg text-gray-800 hover:text-[#72B944]">Services</a>
+          <a href="#" className="bl ock py-2 text-lg text-gray-800 hover:text-[#72B944]">Services</a>
           <a href="#" className="block py-2 text-lg text-gray-800 hover:text-[#72B944]">Work</a>
           <a href="#" className="block py-2 text-lg text-gray-800 hover:text-[#72B944]">Contact</a>
           <a href="#" className="block py-2 text-lg text-gray-800 hover:text-[#72B944]">More</a>
@@ -82,25 +79,8 @@ const HeroSection = () => {
       </div>
 
         {/* Card Section */}
-        <div className="absolute top-[580px] left-1/2 transform -translate-x-1/2 w-[70%] h-[120px] flex justify-center z-20">
-          <div className="flex flex-row items-center gap-8 px-10 py-6 bg-white shadow-lg rounded-xl border-2 border-[#72B944]">
-            <div className="flex flex-col items-center">
-              <select className="text-xl font-semibold text-gray-700">
-                <option selected disabled>Current location</option>
-                <option>Los Angeles</option>
-                <option>New York</option>
-              </select>
-              <p className="text-xs text-gray-500 mt-1">Enter your location</p>
-            </div>
-            <div className="border-l-2 border-gray-300 h-10 mx-4"></div>
-            <div className="flex flex-col items-center">
-              <select className="text-xl font-semibold text-gray-700">
-                <option selected disabled>Type</option>
-                <option>Residential</option>
-                <option>Commercial</option>
-              </select>
-              <p className="text-xs text-gray-500 mt-1">Enter house type</p>
-            </div>
+        <div className="absolute top-[580px] left-[490px] transform -translate-x-1/2 w-[60%] h-[120px] flex justify-center z-20">
+          <div className="flex flex-row items-center gap-4 px-10 py-6 bg-white shadow-lg rounded-xl border-2 border-[#72B944]">
             <div className="flex flex-col items-center">
               <select className="text-xl font-semibold text-gray-700">
                 <option selected disabled>Current location</option>
@@ -128,16 +108,7 @@ const HeroSection = () => {
               <p className="text-xs text-gray-500 mt-1">Enter the price you want</p>
             </div>
             <div className="border-l-2 border-gray-300 h-10 mx-4"></div>
-              <select className="text-xl font-semibold text-gray-700">
-                <option selected disabled>Price</option>
-                <option>$1000-$2000</option>
-                <option>$2000-$3000</option>
-              </select>
-              <p className="text-xs text-gray-500 mt-1">Enter the price you want</p>
-            </div>
-            <div className="border-l-2 border-gray-300 h-10 mx-4"></div>
-            <button className="bg-[#72B944] text-white px-6 py-2 rounded-full shadow-md hover:bg-green-700 transition flex items-center">
-              Explore Now <FaChevronRight className="ml-1 text-xl" />
+            <button className="bg-[#72B944] text-white px-6 py-2 rounded-full shadow-md hover:bg-green-700 transition flex items-center w-[170px] h-[50px]">
               Explore Now <FaChevronRight className="ml-1 text-xl" />
             </button>
           </div>
@@ -164,9 +135,10 @@ const HeroSection = () => {
       <div className="absolute top-[89px] left-[59px] text-3xl font-bold z-30">
         Apartment<span className="text-[#72B944]">Z</span>
       </div>
-      </div>
     </div>
-  );
+    </div>
+    
+   );
 };
 
 export default HeroSection;
