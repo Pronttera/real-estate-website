@@ -1,6 +1,6 @@
 import React from "react";
-import house1 from "./assets/Modern House 1.png";
-import house2 from "./assets/Modern House 2.png";
+import house1 from "./assets/Modern_House_1.png";
+import house2 from "./assets/Modern_House_2.png";
 
 const AboutSection = () => {
   return (
