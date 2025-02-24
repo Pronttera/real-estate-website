@@ -1,5 +1,4 @@
 import React from "react";  
-import './ContactUsSection.css'; // Make sure to create this CSS file for your styles  
 
 const ContactUsSection = () => { // Function Component  
     return (  
