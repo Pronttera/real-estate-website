@@ -37,7 +37,8 @@ const HeroSection = () => {
       {/* Hero Section */}
       <div className="relative flex w-full h-full">
         {/* Left Section */}
-        <div className="flex flex-col justify-center bg-[#f4f7ec] w-1/2 h-full px-20">   
+        <div className="flex flex-col justify-center bg-[#f4f7ec] w-1/2 h-full px-20">
+          
           {/* Hero Text*/}
           <div className="hero-text mt-[-120px] left-[29px]">
             <h1 className="text-5xl font-bold text-gray-900 leading-tight">
@@ -137,8 +138,7 @@ const HeroSection = () => {
       </div>
     </div>
     </div>
-    
-   );
+  );
 };
 
 export default HeroSection;
