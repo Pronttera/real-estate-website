@@ -14,7 +14,7 @@ const ContactUsSection = () => { // Function Component
 
                 <div >
                     <h1 className="text-white text-5xl text-center font-bold font-redhat mb-3 ml-18 ml-20 mr-20 mt-[-70px] ">
-                        Search over 1 million listings
+                        Search over 1 million listings Here 
                     </h1>
                     <p className="text-white text-lg mb-6 ml-[270px] mr-[237px] font-redhat">
                         Search over 1 million listings including apartments, houses, condos, and townhomes available for rent.
