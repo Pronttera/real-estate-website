@@ -1,19 +1,16 @@
 import React from 'react';
 import Apartmentz from '../../assets/images/apartmentz.png';
-import facebookIcon from '../../assets/images/facebook-icon.png';
-import linkedinIcon from '../../assets/images/linkedin-icon.png';
-import twitterIcon from '../../assets/images/twitter-icon.png';
-import instagramIcon from '../../assets/images/instagram-icon.png';
-import youtubeIcon from '../../assets/images/youtube-icon.png';
-import phoneIcon from '../../assets/images/phone-icon.png';
+
 import mailIcon from '../../assets/images/mail-icon.png';
-import locationIcon from '../../assets/images/location-icon.png';
 
 import { FaFacebookF } from "react-icons/fa6";
 import { ImLinkedin2 } from "react-icons/im";
 import { FaTwitter } from "react-icons/fa6";
 import { BiLogoInstagramAlt } from "react-icons/bi";
 import { FaYoutube } from "react-icons/fa6";
+
+import { HiPhone } from "react-icons/hi2";
+import { IoLocationSharp } from "react-icons/io5";
 
 const Footer = () => {
   return (
@@ -23,18 +20,20 @@ const Footer = () => {
                                                                            {/* 25% */}
             <img src={Apartmentz} alt="ApartmentZ Logo" className="mb-5" />
             <p>Search over 1 million listings including apartments, houses, condos, and townhomes available for rent. You'll find your next home, in any style you prefer.</p>
-          <div className="flex items-center justify-center gap-4 text-[#72B944] p-5 my-14">
-                                    <img src={facebookIcon} alt="Facebook" className="w-[14%] object-contain" />
-                                    <img src={linkedinIcon} alt="Linkedin" className="w-[14%] object-contain" />
-                                    <img src={twitterIcon} alt="Twitter" className="w-[14%] object-contain" />
-                                    <img src={instagramIcon} alt="Instagram" className="w-[14%] object-contain" />
-                                    <img src={youtubeIcon} alt="Youtube" className="w-[14%] object-contain" />
+          <div className="flex items-center justify-center gap-4 text-[#72B944] p-10 my-14">
+  
+                                    
+            <FaFacebookF size={25} />
+            <ImLinkedin2 size={24} />
+            <FaTwitter size={25} />
+            <BiLogoInstagramAlt size={28} />
+            <FaYoutube size={28} />
           </div>
           <div className="flex flex-col items-start justify-center">
                                    <h3 className="mb-5 text-lg font-bold text-white">Contact Info :</h3>
             <div className="w-full flex flex-col gap-4">
                     <div className="w-full flex items-center flex-row gap-4">
-                                            <img src={phoneIcon} alt="Phone Icon" className="h-9" />
+                    <HiPhone  size={28}  />
                                             <p>(888) 111-2222</p>
                     </div>
                     <div className="w-full flex items-center flex-row gap-4">
@@ -42,8 +41,8 @@ const Footer = () => {
                                             <p>support@apartmentz.com</p>
                     </div>
                     <div className="w-full flex items-center flex-row gap-4">
-                                            <img src={locationIcon} alt="Location Icon" className="h-9" />
-                                            <p>123 Urban Street, Cityville, USA</p>
+                    <IoLocationSharp size={28} />                                            
+                    <p>123 Urban Street, Cityville, USA</p>
                     </div>
                     </div>
           </div>
