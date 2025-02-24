@@ -1,4 +1,6 @@
 import React from "react";
+import Modernhouse1 from "../../assets/images/Modern_house_1.png";
+import Modernhouse2 from "../../assets/images/Modern_house_2.png";
 
 const AboutSection = () => {
   return (
@@ -20,8 +22,8 @@ const AboutSection = () => {
       <div className="relative w-[1280px] h-[448px] rounded-[45px] mt-8 overflow-hidden">
         {/* Background Image */}
         <img 
-          src={house1}
-          alt="Modern House" 
+          src={Modernhouse1}
+          alt="Modern_house_1" 
           className="w-[1280px] h-[448px] top-[2061px] left-[80px] object-cover rounded-[45px] bg-[linear-gradient(0deg,_#D9D9D9,_#D9D9D9),_linear-gradient(260.98deg,_#000000_-14.78%,_rgba(104,_104,_104,_0)_75.7%),_linear-gradient(257.92deg,_#000000_-6.04%,_rgba(0,_0,_0,_0)_69.56%)]"
         />
 
@@ -57,8 +59,8 @@ const AboutSection = () => {
       <div className="relative w-[1280px] h-[448px] top-[75px] rounded-[45px] mt-8 overflow-hidden">
         {/* Background Image */}
         <img 
-          src={house2}
-          alt="Modern House" 
+          src={Modernhouse2}
+          alt="Modern_house_2" 
           className="w-[1280px] rounded-[45px] top-[303px] left-[80px] bottom-[118px] right-[80px] object-cover scale-x-[-1]"
         />
 

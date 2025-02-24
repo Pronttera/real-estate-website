@@ -1,14 +1,13 @@
 import React from 'react';
-
-import Apartmentz from '../../footer_assets/apartmentz.png';
-import facebookIcon from '../../footer_assets/facebook-icon.png';
-import linkedinIcon from '../../footer_assets/linkedin-icon.png';
-import twitterIcon from '../../footer_assets/twitter-icon.png';
-import instagramIcon from '../../footer_assets/instagram-icon.png';
-import youtubeIcon from '../../footer_assets/youtube-icon.png';
-import phoneIcon from '../../footer_assets/phone-icon.png';
-import mailIcon from '../../footer_assets/mail-icon.png';
-import locationIcon from '../../footer_assets/location-icon.png';
+import Apartmentz from '../../assets/images/apartmentz.png';
+import facebookIcon from '../../assets/images/facebook-icon.png';
+import linkedinIcon from '../../assets/images/linkedin-icon.png';
+import twitterIcon from '../../assets/images/twitter-icon.png';
+import instagramIcon from '../../assets/images/instagram-icon.png';
+import youtubeIcon from '../../assets/images/youtube-icon.png';
+import phoneIcon from '../../assets/images/phone-icon.png';
+import mailIcon from '../../assets/images/mail-icon.png';
+import locationIcon from '../../assets/images/location-icon.png';
 
 const Footer = () => {
   return (

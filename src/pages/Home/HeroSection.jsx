@@ -1,4 +1,4 @@
-import React ,{useState} from "react";
+import { useState } from "react";
 import { FaBars, FaFacebook, FaTwitter, FaInstagram, FaGlobeAmericas, FaPhone, FaEnvelope, FaPinterest, FaChevronRight,FaTimes } from "react-icons/fa";
 
 const HeroSection = () => {
@@ -53,7 +53,7 @@ const HeroSection = () => {
 
         {/* Right Section */}
         <div className="w-1/2 h-full">
-          <img src="./src/assets/buildings.png" alt="City Skyline" className="w-full h-full object-cover" />
+          <img src="./src/assets/images/buildings.png" alt="City Skyline" className="w-full h-full object-cover" />
           <button className="absolute top-5 right-24 bg-[#72B944] text-white px-6 py-3 rounded-full shadow-md hover:bg-green-700 transition">
             Add A Property
           </button>

@@ -1,5 +1,5 @@
 import React from "react";
-import house3 from "./assets/Modern_House_3.png";
+import house3 from "../../assets/images/Modern_house_3.png";
 
 const ServiceSection = () => {
   return (
