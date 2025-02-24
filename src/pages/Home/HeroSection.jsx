@@ -11,6 +11,7 @@ const HeroSection = () => {
         <div className="flex space-x-4 mr-auto pl-6">
           <span className="flex items-center">
             <FaPhone className="mr-2 transform rotate-90" />
+            <FaPhone className="mr-2 transform rotate-90" />
             (888) 111-222
           </span>
           <span className="flex items-center">
