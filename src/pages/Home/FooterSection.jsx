@@ -9,9 +9,15 @@ import phoneIcon from '../../assets/images/phone-icon.png';
 import mailIcon from '../../assets/images/mail-icon.png';
 import locationIcon from '../../assets/images/location-icon.png';
 
+import { FaFacebookF } from "react-icons/fa6";
+import { ImLinkedin2 } from "react-icons/im";
+import { FaTwitter } from "react-icons/fa6";
+import { BiLogoInstagramAlt } from "react-icons/bi";
+import { FaYoutube } from "react-icons/fa6";
+
 const Footer = () => {
   return (
-    <footer className="fixed bottom-0 bg-[#222] text-white w-full ">
+    <footer className=" bottom-0 bg-[#222] text-white w-full ">
       <div className="flex flex-col gap-4 p-2  md:flex-row md:p-24 ">
         <div className="w-full flex flex-col justify-between h-full mr-36  md:w-1/4"> 
                                                                            {/* 25% */}

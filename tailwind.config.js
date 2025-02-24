@@ -1,13 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [ "./src/**/*.{js,jsx,ts,tsx}"],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       fontFamily: {
-        redhat: ['"Red Hat Display"', 'sans-serif'],
+        redhat: ['"Red Hat Display"', 'sans-serif'], // Define the font
       },
     },
   },
   plugins: [],
 }
-
