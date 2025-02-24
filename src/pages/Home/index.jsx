@@ -1,25 +1,22 @@
 import React from 'react'
 import HeroSection from './HeroSection'
-import ContactUsSection from './ContactUsSection.jsx';
-import FooterSection from './FooterSection.jsx';
+import Contact from './Contact'
+import Footer from './FooterSection'
+import AboutSection from './AboutSection'
+import ServiceSection from './ServiceSection'
+import ContactUsSection from './ContactUsSection'
 
 const Home = () => {
   return (
-
-  <><div>App home page</div>
-      <HeroSection />
-      <div className="flex flex-col min-h-screen">
-                <main className="flex-grow">
-                  <ContactUsSection />
-                </main>
-
-                <FooterSection className="bg-black py-10">
-                  {/* Footer content */}
-                </FooterSection>
-      </div>
-    </>
-
-      )
+    <div>
+        <HeroSection />
+        <AboutSection />
+        <ServiceSection />
+        <Contact />
+        <ContactUsSection />
+        <Footer />
+    </div>
+  )
 }
 
       export default Home
