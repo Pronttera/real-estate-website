@@ -1,15 +1,15 @@
 import React from 'react'
 import HeroSection from './HeroSection'
-// import FooterSection from '../pages/Home/FooterSection.jsx';
-import FooterSection from './FooterSection'
+import Contact from './Contact'
+import Footer from './FooterSection'
 
 const Home = () => {
   return (
-    <>
-      <div>App home page</div>
-      <HeroSection />
-      <FooterSection />
-    </>
+    <div>
+        <HeroSection />
+        <Contact />
+        <Footer />
+    </div>
   )
 }
 
