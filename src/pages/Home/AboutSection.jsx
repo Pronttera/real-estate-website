@@ -5,7 +5,7 @@ import Modernhouse2 from "../../assets/images/Modern_house_2.png";
 const AboutSection = () => {
   return (
     <>
-      <div className="pb-20"></div>
+      <div className="pb-[100px]"></div>
       <section className="max-w-full px-4 md:px-8 lg:px-0 mx-auto flex flex-col items-center text-center">
         {/* Title Section */}
         <div className="max-w-2xl ">
@@ -41,7 +41,7 @@ const AboutSection = () => {
           </div>
         </div>
       </section>
-      <div className="pb-32"></div>
+      <div className="pb-[100px]"></div>
       <section className="w-full bg-[rgba(114,185,68,0.08)] flex flex-col items-center text-center px-4 md:px-8 py-16">
         {/* Title Section */}
         <h1 className="max-w-full text-3xl md:text-[55px] font-extrabold text-[#262626] font-redhat">
