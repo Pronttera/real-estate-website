@@ -16,7 +16,7 @@ const HeroSection = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   return (
-    <div className="relative md:w-screen md:h-screen bg-white flex flex-col font-redhat">
+    <div className="relative md:w-full md:h-screen bg-white flex flex-col font-redhat">
       {/* 🌟 Top Bar */}
       <div className="bg-[#72B944] text-white flex flex-wrap justify-between items-center w-full text-xs md:text-sm p-2 md:p-4">
         <div className="flex flex-wrap justify-center md:justify-start space-x-4 px-4">
@@ -45,9 +45,9 @@ const HeroSection = () => {
       </div>
 
       {/* Hero Section */}
-      <div className="relative flex flex-col md:flex-row w-screen min-h-screen">
+      <div className="relative flex flex-col md:flex-row min-w-screen min-h-screen">
         {/* Left Section */}
-        <div className="flex flex-col justify-center bg-[#f4f7ec] w-full md:w-1/2 p-4 md:pt-0 md:pb-20 text-center md:text-left">
+        <div className="flex flex-col justify-center bg-[#f4f7ec] w-1/2 md:w-1/2 p-4 md:pt-0 md:pb-20 text-center md:text-left">
         <div className="md:relative md:top-[-20%]">
           <div className="text-3xl md:text-2xl font-bold text-gray-900 ">
             Apartment<span className="text-[#72B944]">Z</span>
@@ -63,11 +63,11 @@ const HeroSection = () => {
         </div>
 
         {/* Right Section */}
-        <div className="relative flex items-center w-full md:w-1/2 min-h-screen">
+        <div className="relative flex items-center w-1/2 md:w-1/2 min-h-screen">
           <img
             src="./src/assets/images/buildings.png"
             alt="City Skyline"
-            className="w-full h-screen"
+            className="w-screen h-screen"
           />
           <div className="absolute top-4 right-10 flex flex-col md:flex-row md:items-center space-y-2 md:space-y-0 md:space-x-4">
           <a href="#" className="text-black text-xs md:text-sm font-medium hover:underline">
@@ -82,7 +82,7 @@ const HeroSection = () => {
   >
     <FaBars />
   </button>
-  </div>
+        </div>
         </div>
       </div>
 
@@ -122,7 +122,7 @@ const HeroSection = () => {
 
         <div className="flex flex-col md:flex-row items-center gap-4 px-6 md:px-10 py-6 bg-white shadow-lg rounded-xl border-2 border-[#72B944] w-full md:w-auto bg-opacity-90">
           <div className="flex flex-col items-center w-full md:w-auto">
-            <select className="text-xl font-semibold text-gray-700 border-white w-full md:w-auto">
+            <select className="text-xl font-semibold text-gray-700 border border-black-500 w-full md:w-auto">
               <option selected disabled>Current location</option>
               <option>Los Angeles</option>
               <option>New York</option>
@@ -130,8 +130,8 @@ const HeroSection = () => {
             <p className="text-xs text-gray-500 mt-1 ml-[-60px]">Enter your location</p>
           </div>
           <div className="border-l-2 border-gray-300 h-10 hidden md:block"></div>
-          <div className="flex flex-col items-center w-full md:w-auto">
-            <select className="text-xl font-semibold text-gray-700 w-full md:w-auto">
+          <div className="flex flex-col items-center w-full md:w-auto ">
+            <select className="text-xl font-semibold text-gray-700 w-full md:w-auto border border-white">
               <option selected disabled>Type</option>
               <option>Residential</option>
               <option>Commercial</option>
@@ -140,7 +140,7 @@ const HeroSection = () => {
           </div>
           <div className="border-l-2 border-gray-300 h-10 hidden md:block"></div>
           <div className="flex flex-col items-center w-full md:w-auto">
-            <select className="text-xl font-semibold text-gray-700 w-full md:w-auto">
+            <select className="text-xl font-semibold text-gray-700 w-full md:w-auto border border-white">
               <option selected disabled>Price</option>
               <option>$1000-$2000</option>
               <option>$2000-$3000</option>
