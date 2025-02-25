@@ -31,10 +31,10 @@ const ContactUsSection = () => { // Function Component
                     <div className="flex items-center justify-center gap-2">
                         <input
                             type="text"
-                            className="bg-white/30 backdrop-blur-md text-white ml-10 mt-5 px-4 py-3 w-2/6 rounded-md placeholder-gray-300 outline-none"
+                            className="bg-white/30 backdrop-blur-md text-white  font-redhat ml-10 mt-5 px-4 py-3 w-2/6 rounded-md placeholder-gray-300 outline-none"
                             placeholder="Enter Keyword"
                         />
-                        <button className="px-6 py-3 rounded-md bg-white  mt-5 text-black font-bold transition duration-300 hover:bg-gray-300">
+                        <button className="px-6 py-3 rounded-md bg-white  font-redhat mt-5 text-black font-bold transition duration-300 hover:bg-gray-300">
                             Search
                         </button>
                     </div>
