@@ -20,9 +20,8 @@ const Footer = () => {
                                                                            {/* 25% */}
             <img src={Apartmentz} alt="ApartmentZ Logo" className="mb-5" />
             <p>Search over 1 million listings including apartments, houses, condos, and townhomes available for rent. You'll find your next home, in any style you prefer.</p>
-          <div className="flex items-center justify-center gap-4 text-[#72B944] p-10 my-14">
-  
-                                    
+          <div className="flex items-center justify-center gap-4 text-[#72B944] p-5 my-14">
+      
             <FaFacebookF size={25} />
             <ImLinkedin2 size={24} />
             <FaTwitter size={25} />
