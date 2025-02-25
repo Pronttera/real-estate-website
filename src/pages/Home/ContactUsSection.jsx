@@ -4,19 +4,25 @@ const ContactUsSection = () => { // Function Component
 
     return (
         <div className="flex flex-col justify-center items-center min-h-[70vh] w-full bg-gray-200 px-20 py-20 ">
-            <div className="relative w-5/6 container w-full mx-auto max-h-[500px] text-center rounded-[40px] ml-10 mr-10 mb-20 mt-20 px-39 py-60 bg-cover bg-no-repeat"
-                style={{
-                    backgroundImage: "url('./src/assets/images/contactus_background.png')",
-                    backgroundSize: "contain",  // or "cover", "auto", "100% 100%", etc.
-                    backgroundPosition: "center center", // or "left top", "center", etc.
-                    backgroundRepeat: "no-repeat"
-                }}>
+            <div
+                className="relative w-5/6 max-w-full mx-auto max-h-[500px] 
+                            text-center rounded-[40px] 
+                            px-20 py-40 lg:px-16 lg:py-32 md:px-12 md:py-24 sm:px-8 sm:py-16
+                            bg-cover bg-no-repeat"
+                            style={{
+                                backgroundImage: "url('./src/assets/images/contactus_background.png')",
+                                backgroundSize: "cover", // Ensures full coverage
+                                backgroundPosition: "center center",
+                                backgroundRepeat: "no-repeat",
+                            }}
+            >
 
                 <div >
-                    <h1 className="text-white text-6xl text-center font-bold font-redhat mb-3 ml-250  mr-120 mt-[-90px]  ">
+                    <h1 className="text-white text-5xl text-center font-bold font-redhat mb-2 ml-250  mr-120 mt-[-20px]  ">
                         Search over 1 million listings
                     </h1>
-                    <p className="text-white text-lg mb-6 ml-[460px] mr-[420px] font-redhat">
+                    <p className="text-white text-center text-lg mb-6 font-redhat w-3/5 lg:w-4/5 md:w-5/6 sm:w-full mx-auto">
+                        {/* text-lg mb-6 font-redhat w-3/5 lg:w-4/5 md:w-5/6 sm:w-full */}
                         Search over 1 million listings including apartments, houses, condos, and townhomes available for rent.
                         You’ll find your next home in any style you prefer.
                     </p>
