@@ -10,6 +10,7 @@ const ServiceSection = () => {
           <h1 className="text-[#262626] text-3xl lg:text-[55px] font-extrabold leading-[1.2] font-redhat tracking-[-1px]">
             The Perfect Place to Manage Your Property
           </h1>
+          
           <p className="text-[#717D7D] text-[18px] lg:text-[24px] font-normal font-redhat leading-[1.6] opacity-75 mt-4">
             Work with the best suite of property management tools on the market.
           </p>
