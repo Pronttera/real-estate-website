@@ -2,7 +2,7 @@ import { FaGooglePlay, FaApple } from 'react-icons/fa';
 
 const Contact = () => {
   return (
-    <div className="h-[850px] bg-gray-100 flex flex-col items-center justify-center p-6 font-redhat">
+    <div className="h-[750px] bg-gray-100 flex flex-col items-center justify-center p-6 font-redhat">
       <h1 className="text-3xl md:text-4xl font-bold text-center text-gray-900">
         Renting Made Easy for Residents <br /> and Property Managers
       </h1>

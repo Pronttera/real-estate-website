@@ -49,7 +49,7 @@ const HeroSection = () => {
         {/* Left Section */}
         <div className="flex flex-col justify-center bg-[#f4f7ec] w-1/2 md:w-1/2 p-4 md:pt-0 md:pb-20 text-center md:text-left">
         <div className="md:relative md:top-[-20%]">
-          <div className="text-3xl md:text-2xl font-bold text-gray-900 ">
+          <div className="text-3xl md:text-3xl font-bold text-gray-900 ">
             Apartment<span className="text-[#72B944]">Z</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mt-8">
@@ -88,7 +88,7 @@ const HeroSection = () => {
 
       {/*Sidebar */}
       <div
-        className={`fixed top-0 right-0 w-64 h-full bg-white shadow-lg transform ${
+        className={`fixed top-0 right-0 w-60 h-full bg-transparent shadow-lg transform ${
           isSidebarOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 z-50`}
       >
@@ -98,8 +98,8 @@ const HeroSection = () => {
         >
           <FaTimes />
         </button>
-        <div className="p-6">
-          <a href="#" className="block py-2 text-lg text-gray-800 hover:text-[#72B944]">
+        <div className="p-6 bg-white bg-opacity-70 ">
+          <a href="#" className="block py-2 text-lg text-gray-800 hover:text-[#72B944] mt-20">
             About Us
           </a>
           <a href="#" className="block py-2 text-lg text-gray-800 hover:text-[#72B944]">
@@ -121,8 +121,8 @@ const HeroSection = () => {
       <div className="relative md:absolute top-0  md:top-[65%] left-[50%] md:left-[41%] transform -translate-x-1/2 w-[90%] md:w-[80%] flex justify-center z-20 mt-6 md:mt-0">
 
         <div className="flex flex-col md:flex-row items-center gap-4 px-6 md:px-10 py-6 bg-white shadow-lg rounded-xl border-2 border-[#72B944] w-full md:w-auto bg-opacity-90">
-          <div className="flex flex-col items-center w-full md:w-auto">
-            <select className="text-xl font-semibold text-gray-700 border border-black-500 w-full md:w-auto">
+          <div className="flex flex-col items-center w-full md:w-auto ">
+            <select className="text-xl font-semibold text-gray-700 bw-full md:w-auto ">
               <option selected disabled>Current location</option>
               <option>Los Angeles</option>
               <option>New York</option>
@@ -155,7 +155,7 @@ const HeroSection = () => {
       </div>
 
       {/* Hero Stats */}
-<div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-center px-6 md:absolute md:top-[90%] md:left-0">
+<div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-center px-6 md:absolute md:top-[87%] md:left-0">
   <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-10">
     <div className="flex flex-col">
       <p className="text-2xl font-bold">20+</p>
