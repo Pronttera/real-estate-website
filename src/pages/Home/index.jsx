@@ -9,12 +9,12 @@ import ContactUsSection from './ContactUsSection'
 const Home = () => {
   return (
     <div>
-        <HeroSection />
+        {/* <HeroSection /> */}
         <AboutSection />
         <ServiceSection />
-        <Contact />
-        <ContactUsSection />
-        <Footer />
+        {/* <Contact /> */}
+        {/* <ContactUsSection /> */}
+        {/* <Footer /> */}
     </div>
   )
 }
