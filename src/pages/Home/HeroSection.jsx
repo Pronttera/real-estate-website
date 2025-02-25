@@ -16,7 +16,7 @@ const HeroSection = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   return (
-    <div className="relative w-full min-h-screen bg-white flex flex-col font-redhat">
+    <div className="relative md:w-full md:h-full bg-white flex flex-col font-redhat">
       {/* 🌟 Top Bar */}
       <div className="bg-[#72B944] text-white flex flex-wrap justify-between items-center w-full text-xs md:text-sm p-2 md:p-4">
         <div className="flex flex-wrap justify-center md:justify-start space-x-4 px-4">
@@ -48,8 +48,8 @@ const HeroSection = () => {
       <div className="relative flex flex-col md:flex-row w-full min-h-[80vh]">
         {/* Left Section */}
         <div className="flex flex-col justify-center bg-[#f4f7ec] w-full md:w-1/2 p-4 md:pt-0 md:pb-20 text-center md:text-left">
-        <div className="md:relative md:top-[-30px]">
-          <div className="text-3xl md:text-4xl font-bold text-gray-900 ">
+        <div className="md:relative md:top-[-20%]">
+          <div className="text-3xl md:text-2xl font-bold text-gray-900 ">
             Apartment<span className="text-[#72B944]">Z</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mt-8">
@@ -118,7 +118,7 @@ const HeroSection = () => {
       </div>
 
       {/* Card Section */}
-      <div className="relative md:absolute top-0  md:top-[290px] left-[50%] md:left-[41%] transform -translate-x-1/2 w-[90%] md:w-[80%] flex justify-center z-20 mt-6 md:mt-0">
+      <div className="relative md:absolute top-0  md:top-[60%] left-[50%] md:left-[41%] transform -translate-x-1/2 w-[90%] md:w-[80%] flex justify-center z-20 mt-6 md:mt-0">
 
         <div className="flex flex-col md:flex-row items-center gap-4 px-6 md:px-10 py-6 bg-white shadow-lg rounded-xl border-2 border-[#72B944] w-full md:w-auto bg-opacity-90">
           <div className="flex flex-col items-center w-full md:w-auto">
@@ -155,7 +155,7 @@ const HeroSection = () => {
       </div>
 
       {/* Hero Stats */}
-<div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-center px-6 md:absolute md:top-[400px] md:left-0">
+<div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-center px-6 md:absolute md:top-[90%] md:left-0">
   <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-10">
     <div className="flex flex-col">
       <p className="text-2xl font-bold">20+</p>
