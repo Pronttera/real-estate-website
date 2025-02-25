@@ -5,11 +5,13 @@ import Footer from './FooterSection'
 import AboutSection from './AboutSection'
 import ServiceSection from './ServiceSection'
 import ContactUsSection from './ContactUsSection'
+import WorkSection from './WorksSection'
 
 const Home = () => {
   return (
     <div>
         <HeroSection />
+        <WorkSection />
         <AboutSection />
         <ServiceSection />
         <Contact />
