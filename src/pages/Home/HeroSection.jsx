@@ -47,7 +47,7 @@ const HeroSection = () => {
       {/* Hero Section */}
       <div className="relative flex flex-col md:flex-row min-w-screen min-h-screen">
         {/* Left Section */}
-        <div className="flex flex-col justify-center bg-[#f4f7ec] w-1/2 md:w-1/2 p-4 md:pt-0 md:pb-20 text-center md:text-left">
+        <div className="flex flex-col justify-center bg-[#f4f7ec] w-full md:w-1/2 p-4 md:pt-0 md:pb-20 text-center md:text-left">
         <div className="md:relative md:top-[-20%]">
           <div className="text-3xl md:text-3xl font-bold text-gray-900 ">
             Apartment<span className="text-[#72B944]">Z</span>
@@ -63,7 +63,7 @@ const HeroSection = () => {
         </div>
 
         {/* Right Section */}
-        <div className="relative flex items-center w-1/2 md:w-1/2 min-h-screen">
+        <div className="relative flex items-center w-full md:w-1/2 min-h-screen">
           <img
             src="./src/assets/images/buildings.png"
             alt="City Skyline"
