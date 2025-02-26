@@ -12,7 +12,7 @@ const AboutSection = () => {
           <h1 className="text-3xl md:text-[55px] font-extrabold text-[#262626] font-redhat">
             The Most Rental Listings
           </h1>
-          <p className="text-lg md:text-[24px] text-[#717D7D] pt-[30px] opacity-75 font-redhat">
+          <p className="text-lg md:text-[22px] text-[#717D7D] pt-[30px] opacity-75 font-redhat">
             Choose from over 1 million apartments, houses, condos, and townhomes for rent.
           </p>
         </div>
@@ -31,7 +31,7 @@ const AboutSection = () => {
               <h2 className="text-3xl md:text-[55px] font-extrabold font-redhat">
                 Renting Made Simple
               </h2>
-              <p className="mt-4 text-lg md:text-[20px] pt-[10px] pb-[15px] opacity-75 font-redhat">
+              <p className="mt-4 text-lg md:text-[18px] pt-[10px] pb-[15px] opacity-75 font-redhat">
                 Browse the highest quality listings, apply online, sign your lease, and even pay your rent from any device.
               </p>
               <button className="mt-6 w-auto px-6 py-3 rounded-full border border-white text-white font-redhat hover:bg-white hover:text-black transition">
@@ -47,8 +47,8 @@ const AboutSection = () => {
         <h1 className="max-w-full text-3xl md:text-[55px] font-extrabold text-[#262626] font-redhat">
           Discover Homeownership on Yourself
         </h1>
-        <p className="max-w-[1006px] mt-6 pt-[10px] text-[24px] md:text-[24px] text-[#717D7D] opacity-75 font-redhat">
-        Renting is great, but maybe you're thinking about buying a home instead. We want you to find the right place. That's why our sister site, Homes.com, is designed to help you find your dream home, even if you're a first time buyer.
+        <p className="max-w-[1006px] mt-6 pt-[10px] text-lg md:text-[22px] text-[#717D7D] opacity-75 font-redhat">
+        Renting is great, but if you're thinking about buying, Homes.com can help you find your dream home—even as a first-time buyer!
         </p>
         <div className="relative w-full max-w-[1280px] h-[448px] mt-10 overflow-hidden">
           <img 
@@ -63,8 +63,8 @@ const AboutSection = () => {
               <h2 className="text-3xl md:text-[55px] font-extrabold font-redhat">
                 Explore Your Options
               </h2>
-              <p className="mt-4 text-base md:text-[20px] pt-[15px] pb-[10px] opacity-75 font-redhat">
-              Deciding to become a homeowner is a big deal! Luckily, with Homes.com, you get the most accurate homes for sale property data, an agent directory, and collaboration tools to browse with your agent and co-shopper to help you make the right decision.
+              <p className="mt-4 text-base md:text-[18px] pt-[15px] pb-[10px] opacity-75 font-redhat">
+              Becoming a homeowner is a big step! Homes.com offers accurate listings, an agent directory, and tools to help you find the perfect home.
               </p>
               <button className="mt-6 w-auto px-6 py-3 rounded-full border border-white text-white font-redhat hover:bg-white hover:text-black transition">
                 Start Your Search
