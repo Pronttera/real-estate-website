@@ -34,6 +34,30 @@ const rentals = [
     beds: "Studio - 2 Beds",
     image: "./src/assets/images/property4.png",
   },
+  {
+    id: 5,
+    name: "The Sinclair",
+    address: "1201 N LaSalle Dr, Chicago, IL 60610",
+    price: "$2,000 - $7,500",
+    beds: "Studio - 3 Beds",
+    image: "./src/assets/images/property5.png",
+  },
+  {
+    id: 6,
+    name: "Grand Plaza",
+    address: "540 N State St, Chicago, IL 60654",
+    price: "$1,900 - $9,200",
+    beds: "Studio - 3 Beds",
+    image: "./src/assets/images/property6.png",
+  },
+  {
+    id: 7,
+    name: "The Parker Fulton Market",
+    address: "730 W Couch Pl, Chicago, IL 60661",
+    price: "$2,150 - $6,800",
+    beds: "Studio - 2 Beds",
+    image: "./src/assets/images/property7.png",
+  }
 ];
 
 export default function WorksSection() {
@@ -54,9 +78,9 @@ export default function WorksSection() {
       {/* Header */}
       <div className="flex justify-between items-center mb-10 px-10">
         <h2 className="text-3xl font-bold">Explore Rentals in Chicago, IL</h2>
-        <a href="#" className="text-gray-300 hover:text-white transition">
-          View All
-        </a>
+        <button className="text-gray-300 hover:text-white transition flex items-center cursor-pointer">
+         View All <ChevronRight className="ml-2" />
+        </button>
       </div>
 
       {/* Scrollable Section */}
@@ -70,20 +94,20 @@ export default function WorksSection() {
           {rentals.map((rental) => (
             <div
               key={rental.id}
-              className="min-w-[300px] bg-gray-800 rounded-2xl overflow-hidden shadow-lg transform hover:scale-105 transition duration-300"
+              className="min-w-[300px] relative bg-gray-800 rounded-2xl overflow-hidden shadow-lg transform hover:scale-105 transition duration-300"
             >
               <img
                 src={rental.image}
                 alt={rental.name}
-                className="w-full h-48 object-cover"
+                className="w-full h-80 object-cover"
               />
-              <div className="p-4">
-                <h3 className="font-semibold text-lg">{rental.name}</h3>
-                <p className="text-sm text-gray-400 flex items-center">
+              <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-4">
+                <h3 className="font-semibold text-lg text-white">{rental.name}</h3>
+                <p className="text-sm text-gray-300 flex items-center">
                   <MapPin className="w-4 h-4 mr-1" /> {rental.address}
                 </p>
                 <p className="text-sm text-gray-300 mt-1">{rental.beds}</p>
-                <p className="text-lg font-bold mt-2">{rental.price}</p>
+                <p className="text-lg font-bold mt-2 text-white">{rental.price}</p>
               </div>
             </div>
           ))}
