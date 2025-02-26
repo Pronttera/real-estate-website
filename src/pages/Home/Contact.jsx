@@ -2,7 +2,7 @@ import { FaGooglePlay, FaApple } from 'react-icons/fa';
 
 const Contact = () => {
   return (
-    <div className="h-[850px] bg-gray-100 flex flex-col items-center justify-center p-6 ">
+    <div className="h-[750px] bg-gray-100 flex flex-col items-center justify-center p-6 font-redhat">
       <h1 className="text-3xl md:text-4xl font-bold text-center text-gray-900">
         Renting Made Easy for Residents <br /> and Property Managers
       </h1>
@@ -13,8 +13,8 @@ const Contact = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-9 max-w-5xl w-full h-[350px]">
         {/* Tips For Renters */}
         <div className="bg-[#72B944] p-6 rounded-lg text-white text-center">
-          <h2 className="text-xl font-semibold mt-8">Tips For Renters</h2>
-          <p className="mt-4 text-sm">
+          <h2 className="text-2xl font-semibold mt-8">Tips For Renters</h2>
+          <p className="mt-10 text-sm">
             Find answers to all of your renting questions with the best renter’s guide in the galaxy.
           </p>
           <button className="mt-6 bg-white text-green-500 font-semibold px-4 py-2 rounded-full">
@@ -35,12 +35,12 @@ const Contact = () => {
 
         {/* Take Us With You */}
         <div className="bg-[#72B944] p-6 rounded-lg text-white text-center">
-          <h2 className="text-xl font-semibold mt-8">Take Us With You</h2>
-          <p className="mt-4 text-sm">
+          <h2 className="text-2xl font-semibold mt-8">Take Us With You</h2>
+          <p className="mt-10 text-sm">
             Keep Apartments.com in the palm of your hand throughout your rental journey.
           </p>
           <div className="mt-6 flex flex-col items-center gap-4">
-            <button className="flex items-center bg-black text-white px-4 py-2 rounded-lg text-sm w-[160px] h-[50px]">
+            <button  className="flex items-center bg-black text-white px-4 py-2 rounded-lg text-sm w-[160px] h-[50px]">
               <FaGooglePlay className="mr-2 text-white text-lg" />
               <div className="flex flex-col text-left">
                 <span className="text-[10px]">GET IT ON</span>
