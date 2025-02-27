@@ -70,16 +70,16 @@ const Footer = () => {
 const getLinks = (title) => {
   const linksMap = {
     'ABOUT US': [
-      'About Us', 'Careers', 'Contact Us', 'Legal Notices', 'Privacy Notice', 'Do Not Sell My Personal Info', 'Equal Housing', 'Avoid Scams', 'Accessibility', 'Rent Calculator', 'Renterverse', 'Sitemap'
+      'About Us', 'Careers', 'Contact Us', 'Legal Notices', 'Privacy Notice'
     ],
     'ADVERTISERS': [
       'Advertise', 'Add a Property', 'Digital Feeds Program', 'Customer Portal', 'Community Voice'
     ],
     'RENTAL MANAGER': [
-      'Rental Manager', 'List Your Property For Rent', 'Screen Applicants', 'Create Rental Leases', 'Collect Rent Online', 'Rental Manager Resources'
+      'Rental Manager', 'List Your Property For Rent', 'Screen Applicants', 'Create Rental Leases'
     ],
     'THE MARKETPLACE': [
-      'Apartamentos.com', 'ApartmentFinder.com', 'ForRent', 'ApartmentHomeLiving.com', 'WestsideRentals.com', 'Homes.com', 'LoopNet.com', 'Land.com'
+      'Apartamentos.com', 'ApartmentFinder.com', 'ForRent', 'ApartmentHomeLiving.com'
     ]
   };
 
