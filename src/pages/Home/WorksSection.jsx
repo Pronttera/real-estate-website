@@ -74,10 +74,10 @@ export default function WorksSection() {
   };
 
   return (
-    <div className="bg-gray-900 text-white p-8 rounded-lg h-[550px] mt-16 font-redhat relative">
+    <div className="bg-gray-900 text-white p-8 rounded-lg h-full mt-15 font-redhat relative">
       {/* Header */}
       <div className="flex justify-between items-center mb-10 px-10">
-        <h2 className="text-3xl font-bold">Explore Rentals in Chicago, IL</h2>
+        <h2 className="text-5xl mt-8 font-bold">Explore Rentals in Chicago, IL</h2>
         <button className="text-gray-300 hover:text-white transition flex items-center cursor-pointer">
          View All <ChevronRight className="ml-2" />
         </button>
@@ -115,7 +115,7 @@ export default function WorksSection() {
       </div>
 
       {/* Scroll Buttons*/}
-      <div className="absolute bottom-10 right-12 flex space-x-3">
+      <div className="absolute bottom-20 right-12 flex space-x-3">
         <button
           onClick={() => scroll("left")}
           className="bg-gray-700 p-3 rounded-full shadow-md hover:bg-gray-600 transition duration-300"
