@@ -35,7 +35,7 @@ const HeroSection = () => {
             English
           </a>
           <a href="#" className="hover:underline">Sign Up/Sign In</a>
-          <div className="flex space-x-3">
+          <div className="flex space-x-3 mt-1">
             <a href="https://www.instagram.com"><FaInstagram /></a>
             <a href="https://www.facebook.com"><FaFacebook /></a>
             <a href="https://www.twitter.com"><FaTwitter /></a>
