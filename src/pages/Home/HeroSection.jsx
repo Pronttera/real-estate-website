@@ -49,10 +49,10 @@ const HeroSection = () => {
         {/* Left Section */}
         <div className="flex flex-col justify-center bg-[#f4f7ec] w-full md:w-1/2 p-4 md:pt-0 md:pb-20 text-center md:text-left">
         <div className="md:relative md:top-[-20%] md:left-[8%]">
-          <div className="text-3xl md:text-3xl font-bold text-gray-900 ">
+          <div className="text-3xl md:text-3xl font-extrabold text-gray-900 ">
             Apartment<span className="text-[#72B944]">Z</span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 leading-tight mt-20">
+          <h1 className="text-5xl md:text-7xl font-extrabold text-gray-900 leading-tight mt-20">
             Discover Your <br />
             New <span className="text-[#72B944]">Home</span>
           </h1>
@@ -122,7 +122,7 @@ const HeroSection = () => {
 
         <div className="flex flex-col md:flex-row items-center gap-9 px-6 md:px-10 py-6 bg-white shadow-lg rounded-xl border-2 border-[#72B944] w-full md:w-[70%] bg-opacity-90">
           <div className="flex flex-col items-center w-full md:w-auto ">
-            <select className="text-xl font-semibold text-gray-700 bw-full md:w-auto ">
+            <select className="text-xl font-bold text-gray-700 bw-full md:w-auto ">
               <option selected disabled>Current location</option>
               <option>Los Angeles</option>
               <option>New York</option>
@@ -131,7 +131,7 @@ const HeroSection = () => {
           </div>
           <div className="border-l-2 border-gray-300 h-10 hidden md:block"></div>
           <div className="flex flex-col items-center w-full md:w-auto ">
-            <select className="text-xl font-semibold text-gray-700 w-full md:w-auto border border-white">
+            <select className="text-xl font-bold text-gray-700 w-full md:w-auto border border-white">
               <option selected disabled>Type</option>
               <option>Residential</option>
               <option>Commercial</option>
@@ -140,7 +140,7 @@ const HeroSection = () => {
           </div>
           <div className="border-l-2 border-gray-300 h-10 hidden md:block"></div>
           <div className="flex flex-col items-center w-full md:w-auto">
-            <select className="text-xl font-semibold text-gray-700 w-full md:w-auto border border-white">
+            <select className="text-xl font-bold text-gray-700 w-full md:w-auto border border-white">
               <option selected disabled>Price</option>
               <option>$1000-$2000</option>
               <option>$2000-$3000</option>
@@ -158,15 +158,15 @@ const HeroSection = () => {
 <div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-center px-6 md:absolute md:top-[84%] md:left-[3%]">
   <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-20">
     <div className="flex flex-col">
-      <p className="text-3xl font-bold">20+</p>
+      <p className="text-3xl font-extrabold">20+</p>
       <p className="text-gray-600 text-sm">Years of experience</p>
     </div>
     <div>
-      <p className="text-3xl font-bold">800+</p>
+      <p className="text-3xl font-extrabold">800+</p>
       <p className="text-gray-600 text-sm">Property Ready</p>
     </div>
     <div>
-      <p className="text-3xl font-bold">1450+</p>
+      <p className="text-3xl font-extrabold">1450+</p>
       <p className="text-gray-600 text-sm">Happy Customers</p>
     </div>
   </div>
