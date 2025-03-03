@@ -22,11 +22,11 @@ const HeroSection = () => {
         <div className="flex flex-wrap justify-center md:justify-start space-x-4 px-4">
           <span className="flex items-center">
             <FaPhone className="mr-2 transform rotate-90" />
-            (888) 111-222
+            9856425721
           </span>
           <span className="flex items-center">
             <FaEnvelope className="mr-2" />
-            support@apartmentz.com
+            support@zenithestates.com
           </span>
         </div>
         <div className="flex flex-wrap justify-center md:justify-end space-x-4 px-4">
@@ -49,8 +49,8 @@ const HeroSection = () => {
         {/* Left Section */}
         <div className="flex flex-col justify-center bg-[#f4f7ec] w-full md:w-1/2 p-4 md:pt-0 md:pb-20 text-center md:text-left">
         <div className="md:relative md:top-[-20%] md:left-[8%]">
-          <div className="text-3xl md:text-3xl font-extrabold text-gray-900 ">
-            Apartment<span className="text-[#72B944]">Z</span>
+          <div className="text-3xl md:text-4xl font-extrabold text-gray-900 ">
+          Zenith <span className="text-[#72B944]">Estates</span>
           </div>
           <h1 className="text-5xl md:text-7xl font-extrabold text-gray-900 leading-tight mt-20">
             Discover Your <br />
