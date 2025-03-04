@@ -1,5 +1,4 @@
 import React from 'react';
-import Zenith Estates from '../../assets/images/Zenith Estates.png';
 import mailIcon from '../../assets/images/mail-icon.png';
 import { FaFacebookF } from "react-icons/fa6";
 import { ImLinkedin2 } from "react-icons/im";
@@ -15,7 +14,7 @@ const Footer = () => {
       <div className="flex flex-col gap-4 p-2  md:flex-row md:p-24 ">
         <div className="w-full flex flex-col justify-between h-full mr-36  md:w-1/4"> 
                                                                            {/* 25% */}
-            <img src={Zenith Estates} alt="Zenith Estates Logo" className="mb-5" />
+            {/* <img src={Zenith Estates} alt="Zenith Estates Logo" className="mb-5" /> */}
             <p>Search over 1 million listings including apartments, houses, condos, and townhomes available for rent. You'll find your next home, in any style you prefer.</p>
           <div className="flex items-center justify-center gap-4 text-[#72B944] p-5 my-14">
       
@@ -34,7 +33,7 @@ const Footer = () => {
                     </div>
                     <div className="w-full flex items-center flex-row gap-4">
                                             <img src={mailIcon} alt="Mail Icon" className="h-8" />
-                                            <p>support@Zenith Estates.com</p>
+                                            <p>support@zenithestates.com</p>
                     </div>
                     <div className="w-full flex items-center flex-row gap-4">
                     <IoLocationSharp size={28} />                                            
