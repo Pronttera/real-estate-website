@@ -1,14 +1,11 @@
 import React from 'react';
-import Apartmentz from '../../assets/images/apartmentz.png';
-
+import Apartmentz from '../../assets/images/Apartmentz.png';
 import mailIcon from '../../assets/images/mail-icon.png';
-
 import { FaFacebookF } from "react-icons/fa6";
 import { ImLinkedin2 } from "react-icons/im";
 import { FaTwitter } from "react-icons/fa6";
 import { BiLogoInstagramAlt } from "react-icons/bi";
 import { FaYoutube } from "react-icons/fa6";
-
 import { HiPhone } from "react-icons/hi2";
 import { IoLocationSharp } from "react-icons/io5";
 
