@@ -1,6 +1,7 @@
 import React from 'react';
+import background from "../../assets/images/contactus_background.png";
 
-const ContactUsSection = () => { // Function Component  
+const ContactUsSection = () => {   
 
     return (
         <div className="flex flex-col justify-center items-center min-h-[70vh] w-full bg-gray-200 px-20 py-20 ">
@@ -10,8 +11,8 @@ const ContactUsSection = () => { // Function Component
                             px-20 py-40 lg:px-16 lg:py-32 md:px-12 md:py-24 sm:px-8 sm:py-16
                             bg-cover bg-no-repeat"
                             style={{
-                                backgroundImage: "url('./src/assets/images/contactus_background.png')",
-                                backgroundSize: "cover", // Ensures full coverage
+                                backgroundImage:`url(${background})`,
+                                backgroundSize: "cover", 
                                 backgroundPosition: "center center",
                                 backgroundRepeat: "no-repeat",
                             }}
@@ -22,7 +23,7 @@ const ContactUsSection = () => { // Function Component
                         Search over 1 million listings
                     </h1>
                     <p className="text-white text-center text-lg mb-6 font-redhat w-3/5 lg:w-4/5 md:w-5/6 sm:w-full mx-auto">
-                        {/* text-lg mb-6 font-redhat w-3/5 lg:w-4/5 md:w-5/6 sm:w-full */}
+                
                         Search over 1 million listings including apartments, houses, condos, and townhomes available for rent.
                         You’ll find your next home in any style you prefer.
                     </p>
@@ -44,4 +45,4 @@ const ContactUsSection = () => { // Function Component
     );
 };
 
-export default ContactUsSection; // Exporting the function component
+export default ContactUsSection;

@@ -1,5 +1,13 @@
 import { useRef } from "react";
 import { ChevronLeft, ChevronRight, MapPin } from "lucide-react";
+import property from "../../assets/images/property.png";
+import property2 from "../../assets/images/property2.png";
+import property3 from "../../assets/images/property3.png";
+import property4 from "../../assets/images/property4.png";
+import property5 from "../../assets/images/property5.png";
+import property6 from "../../assets/images/property6.png";
+import property7 from "../../assets/images/property7.png";
+
 
 const rentals = [
   {
@@ -8,7 +16,7 @@ const rentals = [
     address: "555 W Madison St, Chicago, IL 60661",
     price: "$1,475 - $6,080",
     beds: "Studio - 2 Beds",
-    image: "./src/assets/images/property.png",
+    image: property,
   },
   {
     id: 2,
@@ -16,7 +24,7 @@ const rentals = [
     address: "400 E South Water, Chicago, IL 60601",
     price: "$2,009 - $5,357",
     beds: "Studio - 2 Beds",
-    image: "./src/assets/images/property2.png",
+    image: property2,
   },
   {
     id: 3,
@@ -24,7 +32,7 @@ const rentals = [
     address: "930 W Altgeld St, Chicago, IL 60614",
     price: "$1,890 - $13,200",
     beds: "Studio - 3 Beds",
-    image: "./src/assets/images/property3.png",
+    image:property3,
   },
   {
     id: 4,
@@ -32,7 +40,7 @@ const rentals = [
     address: "345 E Wacker Dr, Chicago, IL 60601",
     price: "$1,600 - $8,500",
     beds: "Studio - 2 Beds",
-    image: "./src/assets/images/property4.png",
+    image: property4,
   },
   {
     id: 5,
@@ -40,7 +48,7 @@ const rentals = [
     address: "1201 N LaSalle Dr, Chicago, IL 60610",
     price: "$2,000 - $7,500",
     beds: "Studio - 3 Beds",
-    image: "./src/assets/images/property5.png",
+    image: property5,
   },
   {
     id: 6,
@@ -48,7 +56,7 @@ const rentals = [
     address: "540 N State St, Chicago, IL 60654",
     price: "$1,900 - $9,200",
     beds: "Studio - 3 Beds",
-    image: "./src/assets/images/property6.png",
+    image: property6,
   },
   {
     id: 7,
@@ -56,7 +64,7 @@ const rentals = [
     address: "730 W Couch Pl, Chicago, IL 60661",
     price: "$2,150 - $6,800",
     beds: "Studio - 2 Beds",
-    image: "./src/assets/images/property7.png",
+    image: property7,
   }
 ];
 

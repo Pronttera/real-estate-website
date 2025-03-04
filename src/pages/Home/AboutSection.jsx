@@ -6,7 +6,7 @@ const AboutSection = () => {
   return (
     <>
       <div className="pb-[100px]"></div>
-      <section className="max-w-full px-4 md:px-8 lg:px-0 mx-auto flex flex-col items-center text-center">
+      <section className="w-full px-4 md:px-8 lg:px-0 mx-auto flex flex-col items-center text-center">
         {/* Title Section */}
         <div className="max-w-2xl ">
           <h1 className="text-3xl md:text-[55px] font-extrabold text-[#262626] font-redhat">

@@ -11,12 +11,13 @@ import {
   FaChevronRight,
   FaTimes
 } from "react-icons/fa";
+import buildingimage from "../../assets/images/buildings.png";
 
 const HeroSection = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   return (
-    <div className="relative md:w-full md:h-screen bg-white flex flex-col font-redhat">
+    <div className="relative md:w-full md:h-screen bg-white flex flex-col font-redhat overflow-hidden">
       {/* 🌟 Top Bar */}
       <div className="bg-[#72B944] text-white flex flex-wrap justify-between items-center w-full text-xs md:text-sm p-2 md:p-4">
         <div className="flex flex-wrap justify-center md:justify-start space-x-4 px-4">
@@ -65,9 +66,9 @@ const HeroSection = () => {
         {/* Right Section */}
         <div className="relative flex items-center w-full md:w-1/2 min-h-screen">
           <img
-            src="./src/assets/images/buildings.png"
+            src={buildingimage}
             alt="City Skyline"
-            className="w-screen h-screen"
+            className="w-full h-screen"
           />
           <div className="absolute top-4 right-10 flex flex-col md:flex-row md:items-center space-y-2 md:space-y-0 md:space-x-4">
           <a href="#" className="text-black text-xs md:text-sm font-medium hover:underline">
