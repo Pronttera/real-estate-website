@@ -21,16 +21,17 @@ const HeroSection = () => {
       {/* 🌟 Top Bar */}
       <div className="bg-[#72B944] text-white flex flex-wrap justify-between items-center w-full text-xs md:text-sm p-2 md:p-4">
         <div className="flex flex-wrap justify-center md:justify-start space-x-4 px-4">
-        <div className="text-3xl md:text-4xl font-extrabold text-gray-900 ">
-          Zenith <span className="text-white">Estates</span>
+        <div className="text-3xl md:text-4xl font-extrabold text-white ">
+          Zenith <span className="text-black">Estates</span>
           </div>
         </div>
-        <div className="flex flex-wrap justify-center md:justify-end space-x-4 px-4">
+        <div className="flex flex-wrap justify-center md:justify-end space-x-4 px-4 md:text-lg">
           <a href="#" className="flex items-center hover:underline">
             <FaGlobeAmericas className="mr-2" />
             English
           </a>
-          <a href="#" className="hover:underline">Sign Up/Sign In</a>
+          <a href="#" className="hover:underline md:text-lg">Sign In</a>
+          <a href="#" className="hover:underline md:text-lg">Sign Up</a>
         </div>
       </div>
 
@@ -57,10 +58,10 @@ const HeroSection = () => {
             className="w-full h-full"
           />
           <div className="absolute top-4 right-10 flex flex-row items-center space-y-0 space-x-4">
-          <a href="#" className="text-black text-sm  font-medium hover:underline">
+          <a href="#" className="text-black text-m  font-medium hover:underline">
       Manage Rentals
     </a>
-    <button className="bg-[#72B944] text-white px-4 py-2 rounded-full shadow-md hover:bg-green-700 transition text-sm">
+    <button className="bg-[#72B944] text-white px-4 py-2 rounded-full shadow-md hover:bg-green-700 transition text-m">
       Add Property
     </button>
     <button
