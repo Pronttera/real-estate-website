@@ -105,7 +105,7 @@ const HeroSection = () => {
       </div>
 
       {/* Card Section */}
-      <div className="relative md:absolute top-0  md:top-[60%] left-[50%] md:left-[55%] transform -translate-x-1/2 w-[90%] md:w-[100%]  md:h-[18%] flex  z-20 mt-6 md:mt-0">
+      <div className="relative md:absolute top-0  md:top-[55%] left-[50%] md:left-[55%] transform -translate-x-1/2 w-[90%] md:w-[100%]  md:h-[18%] flex  z-20 mt-6 md:mt-0">
 
         <div className="flex flex-col md:flex-row items-center gap-9 px-6 md:px-10 py-6 bg-white shadow-lg rounded-xl border-2 border-[#72B944] w-full md:w-[70%] bg-opacity-90">
           <div className="flex flex-col md:items-center w-full md:w-auto ">
@@ -142,7 +142,7 @@ const HeroSection = () => {
       </div>
 
       {/* Hero Stats */}
-<div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-center px-6 md:absolute md:top-[84%] md:left-[3%]">
+<div className="w-full md:w-1/2 flex flex-col items-center  mt-[30px] md:mt-0 mb-[30px] md:mb-0 md:items-start text-center md:text-center px-6 md:absolute md:top-[84%] md:left-[3%]">
   <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-20">
     <div className="flex flex-col">
       <p className="text-3xl font-extrabold">20+</p>
