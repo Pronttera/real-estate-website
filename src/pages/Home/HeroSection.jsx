@@ -39,25 +39,25 @@ const HeroSection = () => {
         {/* Left Section */}
         <div className="flex flex-col justify-center bg-[#f4f7ec] w-full md:w-1/2 p-4 md:pt-0 md:pb-20 text-center md:text-left">
         <div className="md:relative md:top-[-20%] md:left-[8%]">
-          <h1 className="text-5xl md:text-7xl font-extrabold text-gray-900 leading-tight mt-20">
+          <h1 className="text-6xl md:text-7xl font-extrabold text-gray-900 leading-tight mt-10 md:mt-[-20px]">
             Discover Your <br />
             New <span className="text-[#72B944]">Home</span>
           </h1>
-          <p className="mt-2 text-gray-600 text-sm md:text-base">
+          <p className="mt-6 mb-6 text-gray-600 text-sm md:text-base">
             Helping 100 million renters find their perfect fit.
           </p>
         </div>  
         </div>
 
         {/* Right Section */}
-        <div className="relative flex items-center w-full md:w-1/2 min-h-screen">
+        <div className="relative flex items-center w-full md:w-1/2 h-full">
           <img
             src={buildingimage}
             alt="City Skyline"
-            className="w-full h-screen"
+            className="w-full h-full"
           />
-          <div className="absolute top-4 right-10 flex flex-col md:flex-row md:items-center space-y-2 md:space-y-0 md:space-x-4">
-          <a href="#" className="text-black text-xs md:text-sm font-medium hover:underline">
+          <div className="absolute top-4 right-10 flex flex-row items-center space-y-0 space-x-4">
+          <a href="#" className="text-black text-sm  font-medium hover:underline">
       Manage Rentals
     </a>
     <button className="bg-[#72B944] text-white px-4 py-2 rounded-full shadow-md hover:bg-green-700 transition text-sm">
@@ -109,12 +109,12 @@ const HeroSection = () => {
 
         <div className="flex flex-col md:flex-row items-center gap-9 px-6 md:px-10 py-6 bg-white shadow-lg rounded-xl border-2 border-[#72B944] w-full md:w-[70%] bg-opacity-90">
           <div className="flex flex-col items-center w-full md:w-auto ">
-            <select className="text-xl font-bold text-gray-700 bw-full md:w-auto ">
+            <select className="text-xl font-bold text-gray-700 w-full md:w-auto border border-white">
               <option selected disabled>Current location</option>
               <option>Los Angeles</option>
               <option>New York</option>
             </select>
-            <p className="text-xs text-gray-500 mt-1 ml-[-60px]">Enter your location</p>
+            <p className="text-xs text-gray-500 mt-1 md:ml-[-60px]">Enter your location</p>
           </div>
           <div className="border-l-2 border-gray-300 h-10 hidden md:block"></div>
           <div className="flex flex-col items-center w-full md:w-auto ">
@@ -123,7 +123,7 @@ const HeroSection = () => {
               <option>Residential</option>
               <option>Commercial</option>
             </select>
-            <p className="text-xs text-gray-500 mt-1 ml-[-30px]">Enter house type</p>
+            <p className="text-xs text-gray-500 mt-1 md:ml-[-30px]">Enter house type</p>
           </div>
           <div className="border-l-2 border-gray-300 h-10 hidden md:block"></div>
           <div className="flex flex-col items-center w-full md:w-auto">
@@ -132,11 +132,11 @@ const HeroSection = () => {
               <option>$1000-$2000</option>
               <option>$2000-$3000</option>
             </select>
-            <p className="text-xs text-gray-500 mt-1 ml-[-20px]">Enter the price you want</p>
+            <p className="text-xs text-gray-500 mt-1 md:ml-[-20px] ">Enter the price you want</p>
           </div>
           <div className="border-l-2 border-gray-300 h-10 hidden md:block"></div>
-          <button className="bg-[#72B944] text-white px-6 py-2 rounded-full shadow-md hover:bg-green-700 transition flex items-center w-full md:w-auto">
-            Explore Now <FaChevronRight className="ml-1 text-2xl" />
+          <button className="bg-[#72B944] text-white px-6 py-2 rounded-full shadow-md hover:bg-green-700 transition flex items-center w-auto md:w-auto">
+            Explore Now <FaChevronRight className="ml-1 text-lg md:text-2xl" />
           </button>
         </div>
       </div>
