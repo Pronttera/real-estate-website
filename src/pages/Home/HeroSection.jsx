@@ -108,31 +108,31 @@ const HeroSection = () => {
       <div className="relative md:absolute top-0  md:top-[60%] left-[50%] md:left-[55%] transform -translate-x-1/2 w-[90%] md:w-[100%]  md:h-[18%] flex  z-20 mt-6 md:mt-0">
 
         <div className="flex flex-col md:flex-row items-center gap-9 px-6 md:px-10 py-6 bg-white shadow-lg rounded-xl border-2 border-[#72B944] w-full md:w-[70%] bg-opacity-90">
-          <div className="flex flex-col items-center w-full md:w-auto ">
+          <div className="flex flex-col md:items-center w-full md:w-auto ">
             <select className="text-xl font-bold text-gray-700 w-full md:w-auto border border-white">
               <option selected disabled>Current location</option>
               <option>Los Angeles</option>
               <option>New York</option>
             </select>
-            <p className="text-xs text-gray-500 mt-1 md:ml-[-60px]">Enter your location</p>
+            <p className="text-xs text-gray-500 mt-1 ml-[6px] md:ml-[-60px]">Enter your location</p>
           </div>
           <div className="border-l-2 border-gray-300 h-10 hidden md:block"></div>
-          <div className="flex flex-col items-center w-full md:w-auto ">
+          <div className="flex flex-col md:items-center w-full md:w-auto ">
             <select className="text-xl font-bold text-gray-700 w-full md:w-auto border border-white">
               <option selected disabled>Type</option>
               <option>Residential</option>
               <option>Commercial</option>
             </select>
-            <p className="text-xs text-gray-500 mt-1 md:ml-[-30px]">Enter house type</p>
+            <p className="text-xs text-gray-500 mt-1 ml-[5px] md:ml-[-30px]">Enter house type</p>
           </div>
           <div className="border-l-2 border-gray-300 h-10 hidden md:block"></div>
-          <div className="flex flex-col items-center w-full md:w-auto">
+          <div className="flex flex-col md:items-center w-full md:w-auto">
             <select className="text-xl font-bold text-gray-700 w-full md:w-auto border border-white">
               <option selected disabled>Price</option>
               <option>$1000-$2000</option>
               <option>$2000-$3000</option>
             </select>
-            <p className="text-xs text-gray-500 mt-1 md:ml-[-20px] ">Enter the price you want</p>
+            <p className="text-xs text-gray-500 mt-1  ml-[5px] md:ml-[-20px] ">Enter the price you want</p>
           </div>
           <div className="border-l-2 border-gray-300 h-10 hidden md:block"></div>
           <button className="bg-[#72B944] text-white px-6 py-2 rounded-full shadow-md hover:bg-green-700 transition flex items-center w-auto md:w-auto">
