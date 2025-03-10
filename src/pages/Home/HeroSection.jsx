@@ -21,14 +21,9 @@ const HeroSection = () => {
       {/* 🌟 Top Bar */}
       <div className="bg-[#72B944] text-white flex flex-wrap justify-between items-center w-full text-xs md:text-sm p-2 md:p-4">
         <div className="flex flex-wrap justify-center md:justify-start space-x-4 px-4">
-          <span className="flex items-center">
-            <FaPhone className="mr-2 transform rotate-90" />
-            9856425721
-          </span>
-          <span className="flex items-center">
-            <FaEnvelope className="mr-2" />
-            support@zenithestates.com
-          </span>
+        <div className="text-3xl md:text-4xl font-extrabold text-gray-900 ">
+          Zenith <span className="text-white">Estates</span>
+          </div>
         </div>
         <div className="flex flex-wrap justify-center md:justify-end space-x-4 px-4">
           <a href="#" className="flex items-center hover:underline">
@@ -36,12 +31,6 @@ const HeroSection = () => {
             English
           </a>
           <a href="#" className="hover:underline">Sign Up/Sign In</a>
-          <div className="flex space-x-3 mt-1">
-            <a href="https://www.instagram.com"><FaInstagram /></a>
-            <a href="https://www.facebook.com"><FaFacebook /></a>
-            <a href="https://www.twitter.com"><FaTwitter /></a>
-            <a href="https://www.pinterest.com"><FaPinterest /></a>
-          </div>
         </div>
       </div>
 
@@ -50,9 +39,6 @@ const HeroSection = () => {
         {/* Left Section */}
         <div className="flex flex-col justify-center bg-[#f4f7ec] w-full md:w-1/2 p-4 md:pt-0 md:pb-20 text-center md:text-left">
         <div className="md:relative md:top-[-20%] md:left-[8%]">
-          <div className="text-3xl md:text-4xl font-extrabold text-gray-900 ">
-          Zenith <span className="text-[#72B944]">Estates</span>
-          </div>
           <h1 className="text-5xl md:text-7xl font-extrabold text-gray-900 leading-tight mt-20">
             Discover Your <br />
             New <span className="text-[#72B944]">Home</span>
