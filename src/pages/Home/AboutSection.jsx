@@ -8,7 +8,7 @@ const AboutSection = () => {
       <div className="pb-[100px]"></div>
       <section className="w-full px-4 md:px-8 lg:px-0 mx-auto flex flex-col items-center text-center">
         {/* Title Section */}
-        <div className="max-w-2xl ">
+        <div className="max-w-2xl">
           <h1 className="text-3xl md:text-[55px] font-extrabold text-[#262626] font-redhat">
             The Most Rental Listings
           </h1>
@@ -27,14 +27,14 @@ const AboutSection = () => {
           {/* Dark Gradient Overlay */}
           <div className="absolute inset-0 bg-gradient-to-l from-black/90 to-transparent rounded-[45px] flex items-center justify-end p-6 sm:p-10 md:p-14">
             {/* Overlay Content Positioned to the Right */}
-            <div className="max-w-[551px] text-white text-left">
+            <div className="max-w-[551px] text-white md:text-left text-center">
               <h2 className="text-3xl md:text-[55px] font-extrabold font-redhat">
                 Renting Made Simple
               </h2>
               <p className="mt-4 text-lg md:text-[18px] pt-[10px] pb-[15px] opacity-75 font-redhat">
                 Browse the highest quality listings, apply online, sign your lease, and even pay your rent from any device.
               </p>
-              <button className="mt-6 w-auto px-6 py-3 rounded-full border border-white text-white font-redhat hover:bg-white hover:text-black transition">
+              <button className="mt-6 w-auto px-6 py-3 rounded-full border border-white text-white font-redhat hover:bg-white hover:text-black transition md:self-auto mx-auto block">
                 Find Out More
               </button>
             </div>
@@ -59,14 +59,14 @@ const AboutSection = () => {
           {/* Dark Gradient Overlay */}
           <div className="absolute inset-0 bg-gradient-to-r from-black/90 to-transparent rounded-[45px] flex items-center justify-start p-6 sm:p-10 md:p-14">
             {/* Overlay Content Positioned to the Left */}
-            <div className="max-w-[554px] text-white text-left">
+            <div className="max-w-[554px] text-white md:text-left text-center">
               <h2 className="text-3xl md:text-[55px] font-extrabold font-redhat">
                 Explore Your Options
               </h2>
               <p className="mt-4 text-base md:text-[18px] pt-[15px] pb-[10px] opacity-75 font-redhat">
               Becoming a homeowner is a big step! Homes.com offers accurate listings, an agent directory, and tools to help you find the perfect home.
               </p>
-              <button className="mt-6 w-auto px-6 py-3 rounded-full border border-white text-white font-redhat hover:bg-white hover:text-black transition">
+              <button className="mt-6 w-auto px-6 py-3 rounded-full border border-white text-white font-redhat hover:bg-white hover:text-black transition md:self-auto mx-auto block">
                 Start Your Search
               </button>
             </div>
