@@ -110,7 +110,7 @@ const HeroSection = () => {
 
         <div className="flex flex-col md:flex-row items-center gap-9 px-6 md:px-10 py-6 bg-white shadow-lg rounded-xl border-2 border-[#72B944] w-full md:w-[70%] bg-opacity-90">
           <div className="flex flex-col md:items-center w-full md:w-auto ">
-            <select className="text-xl font-bold text-gray-700 w-full md:w-auto border border-white">
+            <select className="text-xl font-bold text-gray-700 w-full md:w-auto border border-white shadow-lg md:shadow-sm">
               <option selected disabled>Current location</option>
               <option>Los Angeles</option>
               <option>New York</option>
@@ -119,7 +119,7 @@ const HeroSection = () => {
           </div>
           <div className="border-l-2 border-gray-300 h-10 hidden md:block"></div>
           <div className="flex flex-col md:items-center w-full md:w-auto ">
-            <select className="text-xl font-bold text-gray-700 w-full md:w-auto border border-white">
+            <select className="text-xl font-bold text-gray-700 w-full md:w-auto border border-white shadow-lg md:shadow-sm">
               <option selected disabled>Type</option>
               <option>Residential</option>
               <option>Commercial</option>
@@ -128,7 +128,7 @@ const HeroSection = () => {
           </div>
           <div className="border-l-2 border-gray-300 h-10 hidden md:block"></div>
           <div className="flex flex-col md:items-center w-full md:w-auto">
-            <select className="text-xl font-bold text-gray-700 w-full md:w-auto border border-white">
+            <select className="text-xl font-bold text-gray-700 w-full md:w-auto border border-white shadow-lg md:shadow-sm">
               <option selected disabled>Price</option>
               <option>$1000-$2000</option>
               <option>$2000-$3000</option>
