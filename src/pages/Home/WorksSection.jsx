@@ -84,10 +84,10 @@ export default function WorksSection() {
   return (
     <div className="bg-gray-900 text-white p-8 rounded-lg h-full mt-15 font-redhat relative">
       {/* Header */}
-      <div className="flex justify-between items-center mb-10 px-10">
+      <div className="flex flex-col md:flex-row justify-between items-center mb-10 px-10">
         <h2 className="text-5xl mt-8 font-bold">Explore Rentals in Chicago, IL</h2>
-        <button className="text-gray-300 hover:text-white transition flex items-center cursor-pointer">
-         View All <ChevronRight className="ml-2" />
+        <button className="text-gray-300 hover:text-white transition flex flex-row md:items-center cursor-pointer md:ml-0 ml-[-240px] mt-7 md:mt-0">
+         View All <ChevronRight className=" md:ml-2" />
         </button>
       </div>
 
@@ -96,13 +96,13 @@ export default function WorksSection() {
         {/* Scrollable Rental Cards */}
         <div
           ref={scrollRef}
-          className="flex space-x-6 overflow-x-auto scroll-smooth px-10 hide-scrollbar"
+          className="flex space-x-6 overflow-x-auto scroll-smooth snap-x snap-mandatory px-10 hide-scrollbar"
           style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
         >
           {rentals.map((rental) => (
             <div
               key={rental.id}
-              className="min-w-[300px] relative bg-gray-800 rounded-2xl overflow-hidden shadow-lg transform hover:scale-105 transition duration-300"
+              className=" min-w-full md:min-w-[300px] relative bg-gray-800 rounded-2xl overflow-hidden shadow-lg transform hover:scale-105 transition duration-300 snap-center"
             >
               <img
                 src={rental.image}
