@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="flex flex-col gap-4 p-2  md:flex-row md:p-24 ">
         <div className="w-full flex flex-col justify-between h-full mr-36  md:w-1/4">
           {/* 25% */}
-          <div className="text-3xl md:text-4xl font-extrabold text-gray-900 ">
+          <div className="text-3xl md:text-4xl font-extrabold text-white p-6 ">
           Zenith <span className="text-[#72B944]">Estates</span>
           </div>
           <p>
